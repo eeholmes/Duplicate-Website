@@ -1,0 +1,23 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "संपर्क"
+      href: contact.html
+    - text: "More"
+      href: more_info.html
+    - text: "Contact3"
+      href: contact.html
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
